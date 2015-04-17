@@ -1,0 +1,55 @@
+.container {
+    position: absolute;
+}
+
+/*.navbar-custom {
+    background-color: #FF6600;
+}
+
+.navbar-nav {
+    color: black;
+}
+
+.navbar-nav a {
+    color: black;
+}
+    
+.navbar-brand {
+    color: black;
+}
+*/
+
+.jumbotron {
+    margin-top: 0;
+    background-color: #0099FF;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: white;
+}
+
+.navbar a {
+    color: #0099FF;
+}
+/*
+.boxedp {
+    border: 1px solid;
+    margin-right:47%;
+    margin-left:47%;
+    border-radius: 10px;
+}
+*/
+.boxedp {
+   border: 2px solid;
+   margin-left:30%;
+   margin-right: 30%;
+   border-radius: 10px;
+} 
+
+.col-sm-4 {
+    border-right: 1px solid gray;
+}
+
+
