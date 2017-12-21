@@ -6,7 +6,7 @@ body {
 }
 
 a {
-	color: #ffb347;
+	/*color: #ffb347;*/
 }
 
 .jumbotron {
@@ -19,7 +19,8 @@ a {
 }
 
 .list-header {
-	color: #66cc6e;
+	/*color: #66cc6e;*/
+	color: #ffcb05;
 }
 
 .list {
