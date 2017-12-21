@@ -1,0 +1,40 @@
+body {
+	background-color: #0b1122;
+	color: white;
+	padding: 0px;
+	margin: 0px;
+}
+
+a {
+	color: #ffb347;
+}
+
+.jumbotron {
+	background-color: transparent !important;
+	margin-top: -80px;
+}
+
+.list-content {
+	padding-top: 100px;
+}
+
+.list-header {
+	color: #66cc6e;
+}
+
+.list {
+	list-style-type: none;
+}
+
+.img-responsive {
+	height: 100px;
+	margin: 10px;
+}
+
+#umichseal {
+	height: 110px;
+}
+
+#name {
+	padding: 10px;
+}
