@@ -130,3 +130,9 @@ img {
   margin: 0px;
   padding: 1rem;
 }
+
+@media (max-width: 800px) {
+	.hero {
+		padding-top: 0.25px;
+	}
+}
