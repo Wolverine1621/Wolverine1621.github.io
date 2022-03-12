@@ -1,70 +1,87 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Noah Koorndyk's Developer Portfolio">
+		<meta name="author" content="Noah Koorndyk">
+		<meta name="keywords" content="Noah, Koorndyk, Developer, Portfolio, Web Design, Full Stack, Systems Programming">
+
 		<link rel="stylesheet" href="css/stylesheet.css">
-		<title>Noah K</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Oxygen:wght@300;700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+		<title>Noah Koorndyk</title>
 	</head>
 
 	<body>
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col">
-					<img class="img img-responsive float-left" src="images/umich.png" />
+		<div class="container">
+
+  			<div class="hero">
+    			<h1 id="greeting">Hi, I'm <br><span class="bld blue">Noah Koorndyk</span></h1>
+    			<div id="outline"><img src="https://avatars.githubusercontent.com/u/11987454?v=4" alt="memes"></div>
+  			</div>
+
+			<div id="sky">
+				<div class="glass-card">
+					<h2 class="card-heading">Education</h2>
+					<p>
+						I'm a University of Michigan senior, studying computer science in the College of Engineering, graduating April 2022.
+						<br>
+						<br>
+					   	My relevant coursework includes data structures and algorithms, computing theory, computer organization,
+						web systems, encrypted systems, and computer security.
+					</p>
 				</div>
 
-				<div class="col">
-					<img class="img img-responsive float-right" id="umichseal" src="images/umichseal.png" />
+				<div class="glass-card">
+					<h2 class="card-heading">Interests</h2>
+					<p>
+						In my free time, I love:
+						<ul>
+							<li>Playing guitar</li>
+							<li>Flight simulation</li>
+							<li>Planespotting</li>
+							<li>Reading cybersecurity and cryptography research</li>
+							<li>Working on my personal projects</li>
+						</ul>
+					</p>
+				</div>
+
+				<div class="glass-card">
+					<h2 class="card-heading">My Toolbox</h2>
+					<p>
+						I love creating full stack web applications, as well as command line utilities.<br><br>
+
+						I am proficient in: HTML/JS/CSS, React, Flask, Python, and C++.<br><br>
+
+						I am currently learning: Rust, Tailwind, Next.js, and of course
+						learning more about the tools I use regularly! 
+					</p>
+				</div>
+
+				<div class="glass-card" id="lighter-bg">
+					<h2 class="card-heading">Things I've Made</h2>
+					<p>
+						Some of the work I'm most proud of is:
+
+						<ul>
+							<li>This site! I had a blast designing it.</li>
+							<li><a href="https://wolverine1621.github.io/windshear/">Windshear,</a> an aviation weather resource for flight simulation</li>
+							<li>
+								My <a href="https://wolverine1621.github.io/startpage/">startpage.</a> I'll be revisiting this soon to 
+								improve performance, and streamline the process of adding images.
+							</li>
+							<li><a href="https://github.com/cohnt/PATHY">PATHY,</a> a pathfinding software suite I wrote with other UM students in 2017</li>
+							<li>
+								Make sure to check out the rest on my <a href="https://github.com/Wolverine1621">Github.</a> I'm always working on some new project, 
+								or some new exercises to stay sharp and learn new languages/frameworks!
+							</li>
+						</ul>
+					</p>
 				</div>
 			</div>
 		</div>
-
-		<div class="jumbotron jumbotron-fluid">
-			<div class="container">
-				<div class="row">
-					<div class="col">
-						<h1 class="display-1 text-center" id="name">Noah K</h1>
-					</div>
-				</div>
-			</div
-		</div>
-
-		<div class="container list-content">
-			<div class="row">
-				<div class="col">
-					<h4 class="list-header">About Me</h4>
-					<ul class="list">
-						<li>- Private Pilot</li>
-						<li>- UMich CSE Student</li>
-						<li>- Developer</li>
-						<li>- Guitarist</li>
-					</ul>
-				</div>
-
-				<div class="col">
-					<h4 class="list-header">Things I've Developed</h4>
-					<ul class="list">
-						<li>- <a href="https://wolverine1621.github.io/avwx">AVWX Weather</a></li>
-						<li>- <a href="https://github.com/cohnt/PATHY">PATHY Pathfinding Software (ENGR151 Team Project)</a></li>
-						<li>- <a href="https://wolverine1621.github.io/colorcanvas">HTML5 Color Canvas</a></li>
-						<li>- <a href="https://wolverine1621.github.io/hexclock">Hex Color Clock</a></li>
-						<li>- <a href="https://wolverine1621.github.io/startpage">Startpage</a></li>
-					</ul>
-				</div>
-
-				<div class="col">
-					<h4 class="list-header">Contact Me</h4>
-					<ul class="list">
-						<li>- Email: wolverine2116@gmail.com</li>
-						<li>- Github: <a href="https://github.com/Wolverine1621">Wolverine1621</a></li>
-						<li>- Twitter: <a href="https://twitter.com/Wolverine1621">@Wolverine1621</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 	</body>
 </html
